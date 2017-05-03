@@ -1,0 +1,100 @@
+# Xcode
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Gradle
+/build/
+/Examples/**/android/app/build/
+/Examples/**/android/app/gradle/
+/Examples/**/android/app/gradlew
+/Examples/**/android/app/gradlew.bat
+/ReactAndroid/build/
+
+# Buck
+.buckd
+buck-out
+/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+/ReactAndroid/src/main/gen
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+
+#built application files
+/android/*.apk
+/android/*.ap_
+
+# files for the dex VM
+/android/*.dex
+
+# Java class files
+/android/*.class
+
+# generated files
+/android/bin/
+/android/gen/
+
+# Local configuration file (sdk path, etc)
+/android/local.properties
+
+# Windows thumbnail db
+/android/Thumbs.db
+
+# OSX files
+/android/.DS_Store
+
+# Eclipse project files
+/android/.classpath
+/android/.project
+
+# Android Studio
+/android/.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+/android/.gradle
+/android/build/
+
+/android/*/out
+/android/*/*/build
+/android/*/*/production
+/android/*.iws
+/android/*.ipr
+/android/*.iml
+/android/*~
+/android/*.swp
+
+
+
+# Node
+node_modules
+*.log
+.nvm
+
+# OS X
+.DS_Store
+
+# Test generated files
+/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+*.js.meta
+
